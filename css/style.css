@@ -249,6 +249,35 @@ body {
   margin-top: 30px;
 }
 
+.main-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.main-gallery img {
+  width: 100%;
+}
+
+.sub-main {
+  width: 100%;
+  padding: 80px 30px;
+  background: #053b00;
+}
+
+.pictures {
+  width: 100%;
+}
+
+.pictures img {
+  border-radius: 10px;
+}
+
+.pictures p {
+  color: #fff;
+  padding-top: 20px;
+}
+
 @media (max-width: 768px) {
   .nav-wrapper {
     position: relative;
@@ -323,6 +352,16 @@ body {
 
   .main-heading {
     padding-top: 20px;
+  }
+  .main-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .sub-main {
+    width: 100%;
+    padding: 80px 20px;
   }
 }
 
