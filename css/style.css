@@ -278,6 +278,76 @@ body {
   padding-top: 20px;
 }
 
+.locations {
+  background: #e3e4e1;
+}
+
+.locations-content {
+  width: 100%;
+  display: flex;
+  padding: 60px 30px;
+  gap: 50px;
+}
+
+.map {
+  width: 100%;
+}
+
+.map img {
+  width: 100%;
+}
+
+.locations-heading {
+  width: 35%;
+}
+
+.locations-heading h2 {
+  font-size: 50px;
+  max-width: 250px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.locations-heading h2 span {
+  color: #f18d42;
+}
+
+.locations-primary {
+  text-decoration: none;
+  padding: 12px 60px;
+  border: none;
+  background: #2770b5;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.countries {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 0 30px;
+}
+
+.countries-list {
+  width: 100%;
+  display: flex;
+  border: 1.7px solid #014a8e;
+  padding: 10px 15px;
+  gap: 30px;
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+
+.countries-list img {
+  width: 26%;
+}
+
+.countries-list p {
+  justify-self: center;
+  align-self: center;
+}
+
 @media (max-width: 768px) {
   .nav-wrapper {
     position: relative;
