@@ -423,6 +423,7 @@ body {
   .main-heading {
     padding-top: 20px;
   }
+
   .main-gallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -432,6 +433,48 @@ body {
   .sub-main {
     width: 100%;
     padding: 80px 20px;
+  }
+
+  .locations-content {
+    width: 100%;
+    display: block;
+    padding: 60px 20px;
+    gap: 50px;
+  }
+
+  .locations-heading {
+    width: 100%;
+    text-align: center;
+  }
+
+  .locations-heading h2 {
+    font-size: 45px;
+    max-width: 100%;
+    padding: 30px 0;
+  }
+
+  .locations-primary {
+    padding: 12px 40px;
+  }
+
+  .countries {
+    width: 100%;
+    display: block;
+    gap: 0px;
+    padding: 0 20px 20px 20px;
+  }
+
+  .countries-list {
+    width: 100%;
+    display: flex;
+    padding: 10px 15px;
+    gap: 30px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+  }
+
+  .countries-list img {
+    width: 25%;
   }
 }
 
