@@ -348,6 +348,93 @@ body {
   align-self: center;
 }
 
+.stories-content {
+  padding: 50px 30px 25px 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.stories-content h3 {
+  margin: auto;
+  font-size: 40px;
+  max-width: 400px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.stories-content span {
+  color: #2770b5;
+}
+
+.stories-content p {
+  margin: auto;
+  font-size: 16px;
+  max-width: 800px;
+}
+
+.stories-gallery {
+  padding: 0px 20px 20px 20px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.image-gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.explore-btn {
+  text-decoration: none;
+  padding: 15px 60px;
+  border: none;
+  background: #08a355;
+  color: #fff;
+  border-radius: 5px;
+  margin: auto;
+  font-weight: 500;
+}
+
+.article {
+  width: 100%;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.article-buttons {
+  display: flex;
+  gap: 16px;
+  padding: 30px 0;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.article-outline {
+  text-decoration: none;
+  padding: 12px 100px;
+  border: none;
+  background: #f18d42;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.article-primary {
+  text-decoration: none;
+  padding: 12px 100px;
+  border: none;
+  background: #2770b5;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.article p {
+  margin: auto;
+}
+
 @media (max-width: 768px) {
   .nav-wrapper {
     position: relative;
@@ -474,6 +561,84 @@ body {
 
   .countries-list img {
     width: 25%;
+  }
+
+  .stories-content {
+    width: 100%;
+    padding: 50px 20px 50px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .stories-content h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+    max-width: 100%;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  .stories-content p {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .stories-gallery {
+    padding: 0px 20px 20px 20px;
+  }
+
+  .stories-gallery img {
+    margin-bottom: 10px;
+  }
+
+  .image-gallery {
+    width: 100%;
+    display: block;
+    gap: 0px;
+  }
+
+  .image-gallery img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .explore-btn {
+    width: 100%;
+    padding: 15px 80px;
+  }
+
+  .article {
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .article-buttons {
+    display: inline-block;
+    padding: 30px 0;
+    justify-content: center;
+    font-weight: 600;
+  }
+
+  .article-outline {
+    padding: 12px 30px;
+  }
+
+  .article-primary {
+    padding: 12px 30px;
+  }
+
+  .article p {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  #flood {
+    margin-bottom: 30px;
   }
 }
 
