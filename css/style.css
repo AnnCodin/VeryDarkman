@@ -658,7 +658,7 @@ body {
 
   .hero {
     text-align: center;
-    padding: 40px 20px;
+    padding: 40px 10px;
     height: auto;
   }
 
@@ -671,7 +671,7 @@ body {
   }
 
   .main-content {
-    padding: 60px 20px;
+    padding: 60px 10px;
     display: block;
   }
 
@@ -687,13 +687,13 @@ body {
 
   .sub-main {
     width: 100%;
-    padding: 80px 20px;
+    padding: 80px 10px;
   }
 
   .locations-content {
     width: 100%;
     display: block;
-    padding: 60px 20px;
+    padding: 60px 10px;
     gap: 50px;
   }
 
@@ -716,7 +716,7 @@ body {
     width: 100%;
     display: block;
     gap: 0px;
-    padding: 0 20px 20px 20px;
+    padding: 0 10px 20px 10px;
   }
 
   .countries-list {
@@ -734,7 +734,7 @@ body {
 
   .stories-content {
     width: 100%;
-    padding: 50px 20px 50px 20px;
+    padding: 50px 10px 50px 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -757,7 +757,7 @@ body {
   }
 
   .stories-gallery {
-    padding: 0px 20px 20px 20px;
+    padding: 0px 10px 20px 10px;
   }
 
   .stories-gallery img {
@@ -782,7 +782,7 @@ body {
 
   .article {
     width: 100%;
-    padding: 30px 20px;
+    padding: 30px 10px;
     text-align: center;
   }
 
@@ -813,7 +813,7 @@ body {
   .founder {
     width: 100%;
     display: block;
-    padding: 60px 20px;
+    padding: 60px 10px;
     gap: 0px;
   }
 
@@ -842,11 +842,11 @@ body {
 
   .cta-content {
     display: block;
-    padding: 60px 20px;
+    padding: 60px 10px;
   }
 
   .cta-form {
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 10px;
     margin: 0;
   }
 
@@ -894,7 +894,7 @@ body {
 
   .offices-heading h3 {
     font-size: 30px;
-    padding: 50px 0 20px 0;
+    padding: 50px 0 10px 0;
     text-align: center;
   }
 
