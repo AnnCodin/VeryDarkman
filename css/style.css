@@ -605,7 +605,7 @@ body {
 
 footer {
   width: 100%;
-  height: 60vh;
+  height: 90vh;
   background: #014a8e;
 }
 
@@ -618,7 +618,7 @@ footer {
 
 .footer-text {
   width: 100%;
-  font-size: 28px;
+  font-size: 26px;
   padding-bottom: 10px;
   color: #fff;
   margin: auto;
@@ -635,6 +635,60 @@ footer {
 .footer-image img {
   width: 100%;
   border-radius: 20px;
+}
+
+.footer-columns {
+  width: 100%;
+  display: flex;
+  padding: 40px 30px;
+  gap: 80px;
+}
+
+.footer-col1 ul {
+  list-style: none;
+}
+
+.footer-col1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.footer-col2 ul {
+  list-style: none;
+}
+
+.footer-col2 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.footer-donate {
+  width: 100%;
+  color: #fff;
+}
+
+.footer-donate h3 {
+  font-size: 26px;
+}
+
+.footer-donate p {
+  width: 100%;
+  max-width: 300px;
+  font-size: 14px;
+}
+
+.footer-outline {
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  color: #fff;
+  background: #f18d42;
 }
 
 @media (max-width: 768px) {
