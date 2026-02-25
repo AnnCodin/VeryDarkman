@@ -603,6 +603,112 @@ body {
   font-weight: 600;
 }
 
+footer {
+  width: 100%;
+  height: auto;
+  background: #014a8e;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  padding: 30px 30px;
+  gap: 50px;
+}
+
+.footer-text {
+  width: 100%;
+  font-size: 26px;
+  padding-bottom: 10px;
+  color: #fff;
+  margin: auto;
+}
+
+.footer-text span {
+  color: #f18d42;
+}
+
+.footer-image {
+  width: 100%;
+}
+
+.footer-image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.footer-columns {
+  width: 100%;
+  display: flex;
+  padding: 30px 30px;
+  gap: 40px;
+}
+
+.footer-col1 {
+  width: 30%;
+}
+
+.footer-col1 ul {
+  list-style: none;
+}
+
+.footer-col1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.footer-col2 ul {
+  list-style: none;
+}
+
+.footer-col2 {
+  width: 60%;
+}
+
+.footer-col2 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.footer-donate {
+  width: 100%;
+  color: #fff;
+}
+
+.footer-donate h3 {
+  font-size: 26px;
+  padding-bottom: 10px;
+}
+
+.footer-donate p {
+  width: 100%;
+  max-width: 350px;
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+
+.footer-outline {
+  padding: 12px 80px;
+  border: none;
+  background: #f18d42;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
 @media (max-width: 768px) {
   .nav-wrapper {
     position: relative;
@@ -657,7 +763,7 @@ body {
 
   .hero {
     text-align: center;
-    padding: 40px 20px;
+    padding: 40px 10px;
     height: auto;
   }
 
@@ -670,7 +776,7 @@ body {
   }
 
   .main-content {
-    padding: 60px 20px;
+    padding: 60px 0px;
     display: block;
   }
 
@@ -686,13 +792,13 @@ body {
 
   .sub-main {
     width: 100%;
-    padding: 80px 20px;
+    padding: 80px 0px;
   }
 
   .locations-content {
     width: 100%;
     display: block;
-    padding: 60px 20px;
+    padding: 60px 0px;
     gap: 50px;
   }
 
@@ -715,7 +821,7 @@ body {
     width: 100%;
     display: block;
     gap: 0px;
-    padding: 0 20px 20px 20px;
+    padding: 0 0px 20px 0px;
   }
 
   .countries-list {
@@ -733,7 +839,7 @@ body {
 
   .stories-content {
     width: 100%;
-    padding: 50px 20px 50px 20px;
+    padding: 50px 0px 50px 0px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -756,7 +862,7 @@ body {
   }
 
   .stories-gallery {
-    padding: 0px 20px 20px 20px;
+    padding: 0px 0px 20px 0px;
   }
 
   .stories-gallery img {
@@ -781,7 +887,7 @@ body {
 
   .article {
     width: 100%;
-    padding: 30px 20px;
+    padding: 30px 10px;
     text-align: center;
   }
 
@@ -812,7 +918,7 @@ body {
   .founder {
     width: 100%;
     display: block;
-    padding: 60px 20px;
+    padding: 30px 0px;
     gap: 0px;
   }
 
@@ -831,7 +937,7 @@ body {
 
   .founder-message h3 {
     font-size: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 10px;
   }
 
@@ -841,11 +947,11 @@ body {
 
   .cta-content {
     display: block;
-    padding: 60px 20px;
+    padding: 60px 10px;
   }
 
   .cta-form {
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 10px;
     margin: 0;
   }
 
@@ -893,7 +999,7 @@ body {
 
   .offices-heading h3 {
     font-size: 30px;
-    padding: 50px 0 20px 0;
+    padding: 50px 0 10px 0;
     text-align: center;
   }
 
@@ -915,6 +1021,54 @@ body {
 
   .addresses p {
     line-height: 30px;
+  }
+
+  footer {
+    height: auto;
+  }
+  .footer-content {
+    display: block;
+    padding: 30px 0px;
+    gap: 0px;
+  }
+
+  .footer-text {
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 15px;
+  }
+
+  .footer-image img {
+    border-radius: 10px;
+  }
+
+  .footer-columns {
+    width: 100%;
+    display: block;
+    padding: 30px 0px;
+    gap: 0px;
+  }
+
+  .footer-col1 {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .footer-donate h3 {
+    font-size: 26px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+  }
+
+  .footer-donate p {
+    width: 100%;
+    max-width: 350px;
+    font-size: 16px;
+    padding-bottom: 25px;
   }
 }
 
